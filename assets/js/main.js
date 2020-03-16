@@ -35,7 +35,7 @@ let europäischeUnion = {
     }
 }
 
-console.log(europäischeUnion.BeneluxUnion)
+europäischeUnion.BeneluxUnion();
 
 
 // ---------------------- Übung 2 - CodeFlow Übung lev1_2: Objects: ----------------------
@@ -48,7 +48,7 @@ let person = {
     }
 }
 
-console.log(person.sagNameAlter);
+console.log(person.sagNameAlter());
 console.log(person.name);
 console.log(person.alter);
 
