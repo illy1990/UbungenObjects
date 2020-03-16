@@ -35,7 +35,7 @@ let europäischeUnion = {
     }
 }
 
-europäischeUnion.BeneluxUnion
+console.log(europäischeUnion.BeneluxUnion)
 
 
 // ---------------------- Übung 2 - CodeFlow Übung lev1_2: Objects: ----------------------
