@@ -44,17 +44,60 @@ let person = {
     name: "Peter",
     alter: 29,
     sagNameAlter: function () {
-        alert(alter);
+        alert(person.alter);
     }
 }
 
-console.log(person.sagNameAlter());
+// person.sagNameAlter();
 console.log(person.name);
 console.log(person.alter);
 
 // ---------------------- Übung 3 - CodeFlow Übung lev1_4: Objects Accessing ----------------------
 
+var unsereHaustiere = [
+    {
+        tiertyp: "Katze",
+        names: [
+            "Gipsy",
+            "Nala",
+            "Dinky"
+        ]
+    },
+    {
+        tiertyp: "Hunde",
+        names: [
+            "Knöpfchen",
+            "Pinselchen",
+            "Droopy"
+        ]
+    }
+];
+
+console.log(unsereHaustiere[0].names[1]);
+console.log(unsereHaustiere[1].names[2]);
+console.log(unsereHaustiere[1].names[0], unsereHaustiere[1].names[1], unsereHaustiere[1].names[2])
+
+unsereHaustiere[1].names[1] = "DänischeBulldogge";
+unsereHaustiere[1].names[2] = "Wauwi";
+unsereHaustiere[1].names[3] = "Schnuckelchen";
+console.log(unsereHaustiere[1].names[1], unsereHaustiere[1].names[2], unsereHaustiere[1].names[3])
 
 
+
+// ---------------------- Übung 4 - CodeFlow Übung lev1_4: Objects Accessing ----------------------
+var unserLager = {
+    schreibtisch: {
+        schublade: "Hefter"
+    },
+    schrank: {
+        "Obere Schublade": {
+            Ordner1: "eine Datei",
+            Ordner2: "Geheimnisse"
+        },
+        "Untere schublade": "Cola"
+    }
+};
+
+console.log(unserLager.schrank[0][0])
 
 
